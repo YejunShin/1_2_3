@@ -26,9 +26,9 @@ def drop_apple():
 	apple.goto(0,-150)
 def draw_an_A():
 	drawer.penup()
-	drawer.goto(0,100)
+	drawer.goto(-15,-45)
 	drawer.color("white")
-	drawer.write("A", font=("Arial", 74, "bold"))
+	drawer.write("A", font=("Arial", 40, "bold"))
 def events():
 	drop_apple()
 	drawer.clear()
